@@ -4,7 +4,14 @@ provide a library like chess.js but for tic tac toe.. you can make your own GUI
 #### installation
 
 npm command line:
-	`npm install tictactoejs`
+	```
+	npm install tictactoejs
+	```
+
+bower command line:
+	```
+	bower install tictactoejs
+	```
 
 
 #### usage example as NPM module
@@ -21,9 +28,9 @@ var game = new TicTacToe.TicTacToe();
 	console.log(game.ascii()); // check board
 ```
 
-#### usage example in web
+#### usage example in web / bower
 ```
-<script type="text/javascript" src="TicTacToe/TicTacToe.min.js"></script>
+<script type="text/javascript" src="bower_components/tictactoejs/TicTacToe.min.js"></script>
 <script type="text/javascript">
 var game = new TicTacToe();
 
