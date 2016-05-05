@@ -1,0 +1,25 @@
+{
+  "name": "tictactoejs",
+  "description": "provide a library like chess.js but for tic tac toe.. you can make your own GUI",
+  "main": "TicTacToe.js",
+  "authors": [
+    "ryan hs <mr.ryansilalahi@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "tic",
+    "tac",
+    "toe",
+    "move",
+    "generation",
+    "tic-tac-toe"
+  ],
+  "homepage": "https://github.com/ryanhs/TicTacToeJS",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

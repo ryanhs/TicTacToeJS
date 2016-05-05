@@ -1,0 +1,38 @@
+{
+  "name": "tictactoejs",
+  "version": "1.0.1",
+  "description": "provide a library like chess.js but for tic tac toe.. you can make your own GUI",
+  "main": "TicTacToe.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.5.1",
+    "uglify-js": "^2.6.2"
+  },
+  "scripts": {
+    "test": "node tests/full.js",
+    "minifytest": "node tests/minify.js",
+    "minify": "node ./node_modules/.bin/uglifyjs TicTacToe.js -c -m --screw-ie8 --comments -o TicTacToe.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanhs/TicTacToeJS.git"
+  },
+  "keywords": [
+    "tic",
+    "tac",
+    "toe",
+    "move",
+    "generation",
+    "tic-tac-toe"
+  ],
+  "author": "ryan hs <mr.ryansilalahi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanhs/TicTacToeJS/issues"
+  },
+  "homepage": "https://github.com/ryanhs/TicTacToeJS#readme"
+}

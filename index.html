@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8>
+		<title>example</title>
+		<style>
+			body { margin: 0; }
+			canvas { width: 100%; height: 100% }
+		</style>
+	</head>
+	<body>
+		<pre id="board"></pre>
+		<br/>
+		<br/>
+		example for node? <a href="node.js">here</a>
+		
+		<script type="text/javascript" src="bower_components/tictactoejs/TicTacToe.min.js"></script>
+		<script type="text/javascript">		
+			var game = new TicTacToe();
+
+			for(var i = 9; i > 0; i--){
+				game.randomMove()
+			}
+
+			document.getElementById('board').innerHTML = game.ascii();
+		</script>
+	</body>
+</html>
