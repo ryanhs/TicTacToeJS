@@ -98,3 +98,7 @@ and this library inspired by chess.js (separating GUI and the game)
 
 #### license
 MIT
+
+
+#### example / demo
+(https://ryanhs.github.io/TicTacToeJS/)[https://ryanhs.github.io/TicTacToeJS/]
