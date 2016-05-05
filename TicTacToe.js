@@ -2,7 +2,7 @@
  * @license
  * Copyright (c) 2016 ryan hs <mr.ryansilalahi@gmail.com>
  * MIT License
- * https://github.com/ryanhs/TicTacToe.js.git
+ * https://github.com/ryanhs/TicTacToeJS.git
  */
 
 (function(){
