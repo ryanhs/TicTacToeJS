@@ -101,4 +101,4 @@ MIT
 
 
 #### example / demo
-(https://ryanhs.github.io/TicTacToeJS/)[https://ryanhs.github.io/TicTacToeJS/]
+[https://ryanhs.github.io/TicTacToeJS/](https://ryanhs.github.io/TicTacToeJS/)
