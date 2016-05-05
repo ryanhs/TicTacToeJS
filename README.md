@@ -9,7 +9,7 @@ npm command line:
 
 #### usage example as NPM module
 ```
-var TicTacToe = require('./../TicTacToe.js');
+var TicTacToe = require('tictactoejs');
 var game = new TicTacToe.TicTacToe();
 
 	game.turn(); // first move will be X
