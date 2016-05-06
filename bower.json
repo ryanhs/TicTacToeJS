@@ -1,6 +1,6 @@
 {
   "name": "tictactoejs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "provide a library like chess.js but for tic tac toe.. you can make your own GUI",
   "main": "TicTacToe.js",
   "authors": [
