@@ -97,6 +97,17 @@
 			}
 			
 			/*
+			 * exists x, y
+			 */
+			game.exists = function(x, y){
+				x--;
+				y = Math.abs(y - size);
+				
+				if(y < 0 || y >= size || x < 0 || x >= size) return false;
+				return board[y][x] != null;
+			}
+			
+			/*
 			 * move with Array style
 			 * 0,0 | 0,1 | 0,2
 			 * ---------------
@@ -210,6 +221,7 @@
 			game.randomMove = function(){
 				var move = game.legalMoves()[Math.floor(Math.random() * game.legalMoves().length)]
 				game.move(move.x, move.y);
+				return move;
 			}
 			
 		

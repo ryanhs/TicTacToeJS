@@ -1,6 +1,6 @@
 {
-  "name": "tictactoe.js",
-  "version": "1.0.0",
+  "name": "tictactoejs",
+  "version": "1.0.3",
   "dependencies": {
     "align-text": {
       "version": "0.1.4",

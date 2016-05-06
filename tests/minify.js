@@ -182,14 +182,31 @@ test('legal moves', function (t) {
 });
 
 test('random moves', function (t) {
-	var game = new ttt.TicTacToe();
+	var game = new ttt.TicTacToe(),
+		move;
 	
 	for(var i = 9; i > 0; i--){
 		t.equal(game.legalMoves().length, i, i);
-		game.randomMove()
+		move = game.randomMove();
+		//~ console.log(move);
 	}
 	
 	t.true(game.gameOver(), 'gameOver()');
+	//~ console.log(game.ascii())
+	t.end();
+});
+
+test('exists', function (t) {
+	var game = new ttt.TicTacToe();
+	
+	// must be available
+	t.false(game.exists(2, 2), 'check available');
+	
+	game.move(2, 2);
+	
+	// must be exists
+	t.true(game.exists(2, 2), 'check if exists');
+	
 	//~ console.log(game.ascii())
 	t.end();
 });
