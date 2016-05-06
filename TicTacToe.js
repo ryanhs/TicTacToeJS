@@ -108,6 +108,17 @@
 			}
 			
 			/*
+			 * get tile of  x, y
+			 */
+			game.get = function(x, y){
+				x--;
+				y = Math.abs(y - size);
+				
+				if(y < 0 || y >= size || x < 0 || x >= size) return null;
+				return board[y][x];
+			}
+			
+			/*
 			 * move with Array style
 			 * 0,0 | 0,1 | 0,2
 			 * ---------------

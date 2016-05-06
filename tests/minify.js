@@ -211,3 +211,26 @@ test('exists', function (t) {
 	t.end();
 });
 
+
+test('get', function (t) {
+	var game = new ttt.TicTacToe();
+	
+	// must be null
+	t.equal(game.get(2, 2), null, 'equal null');
+	
+	// must be X
+	game.move(2, 2);
+	t.equal(game.get(2, 2), 'X', 'equal X');
+	
+	// must be O
+	game.move(1, 2);
+	t.equal(game.get(1, 2), 'O', 'equal O');
+	
+	// must be null
+	game.move(1, 21);
+	t.equal(game.get(1, 21), null, 'equal null (out of range)');
+	
+	//~ console.log(game.ascii())
+	t.end();
+});
+

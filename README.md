@@ -44,7 +44,7 @@ var game = new TicTacToe();
 ```
 
 
-#### a bit of documentation
+#### a little bit of documentation
 ```
 	var game = new TicTacToe(boardSize);  // default 3
 	
@@ -68,6 +68,17 @@ var game = new TicTacToe();
 	 * */
 	game.move(x, y);
 	
+	/*
+	 * check if this coordicate (tile) already taken
+	 * 
+	 */
+	game.exists(x, y);
+	
+	/*
+	 * get tile of  x, y
+	 */
+	game.get(x, y);
+	
 	
 	game.ascii();		// print table in ascii mode
 	game.ascii2();		// print table in ascii mode, just different style
@@ -89,6 +100,9 @@ var game = new TicTacToe();
 	
 	/*
 	 * AI moves, just random :-p
+	 * return object of x & y example: 
+	 *
+	 * return {x: 1, y: 2}
 	 * */
 	game.randomMove();
 ```
