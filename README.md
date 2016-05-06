@@ -123,3 +123,6 @@ MIT
 
 #### example / demo
 [https://ryanhs.github.io/TicTacToeJS/](https://ryanhs.github.io/TicTacToeJS/)
+
+need more demo?
+here implementation in 3D using three.js (https://ryanhs.github.io/TicTacToe3D/)
